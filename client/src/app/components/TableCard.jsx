@@ -1,10 +1,10 @@
 import styles from './TableCard.module.css'
 
-export default function TableCard () {
+export default function TableCard ({ tableName, imageUrl }) {
   return (
         <li className={styles.card}>
-            <div className={styles.tableImage} ></div>
-            <p>Mi Tablero</p>
+            <img className={styles.tableImage} src={imageUrl}></img>
+            <p className={styles.cardTitle}>{tableName}</p>
         </li>
   )
 }

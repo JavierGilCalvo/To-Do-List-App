@@ -1,8 +1,5 @@
 .mainContainer {
     display: flex;
     flex-direction: column;
-}
-
-.taskList {
-
+    padding: 16px 16px;
 }
