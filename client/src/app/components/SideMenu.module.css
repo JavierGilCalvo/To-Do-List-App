@@ -1,0 +1,13 @@
+.tableListTitle {
+    padding-bottom: 12px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgba(154, 156, 175, 0.25);
+}
+
+.aside {
+    flex-basis: 240px;
+    padding: 26px;
+    overflow: auto;
+    flex-shrink: 0;
+    border-right: 1px solid rgba(154, 156, 175, 0.25);
+}
