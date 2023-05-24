@@ -1,0 +1,30 @@
+.addFrame {
+    display: inline-block;
+    height: 48px;
+    min-height: 48px;
+    width: auto;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.addFrame:hover {
+    background-color: rgba(195, 194, 212, 0.3);
+}
+
+.addIcon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px;
+    line-height: 22px;
+    padding: 2px 0px 0px 0px;
+    height: 16px;
+    width: 16px;
+}
+
+.textAdd {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 6px 8px;
+}

@@ -16,3 +16,32 @@
     height: 20px;
     border-radius: 4px;
 }
+
+.cardTitle {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 12px;
+    width: 128px;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.removeIconContainer {
+    display: none;
+}
+
+.card:hover > .removeIconContainer{
+    position: absolute;
+    display: block;
+    height: 24px;
+    width: 24px;
+    border-radius: 4px;
+    left: 208px;
+    padding: 4px;
+}
+
+.card:hover > .removeIconContainer:hover {
+    display: block;
+    background-color: rgba(220, 218, 255, 0.2);
+}

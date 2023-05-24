@@ -1,5 +1,10 @@
 .mainContainer {
-    display: flex;
-    flex-direction: column;
+    display: block;
     padding: 16px 16px;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }

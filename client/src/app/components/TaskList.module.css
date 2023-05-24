@@ -1,6 +1,25 @@
 .taskList {
-    background-color: rgba(16 18 27 / 30%);
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.taskSection {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: rgba(44, 43, 56, 0.7);
+    backdrop-filter: blur(20px);
+ -webkit-backdrop-filter: blur(20px);
     margin-left: 12px;
-    height: auto;
+    max-height: 100%;
     width: 272px;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.taskTitle {
+    padding: 14px 8px;
+    min-height: 20px;
 }
