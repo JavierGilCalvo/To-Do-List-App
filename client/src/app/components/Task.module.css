@@ -1,10 +1,10 @@
 .task {
     background-color: rgba(220, 218, 255, 0.2);
     backdrop-filter: blur(20px);
- -webkit-backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-radius: 8px;
-    min-height: 36px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .task:hover {
@@ -15,7 +15,7 @@
     display: flex;
     padding: 12px;
     font-size: 14px;
-    gap: 8px;
+    gap: 12px;
 }
 
 .taskContent input {
@@ -24,10 +24,10 @@
 }
 
 .removeIconContainer {
-    display:none;
+    display: none;
 }
 
-.taskContent:hover > .removeIconContainer{
+.taskContent:hover>.removeIconContainer {
     position: absolute;
     display: block;
     top: 8px;
@@ -36,9 +36,10 @@
     width: 24px;
     border-radius: 4px;
     padding: 4px;
+    transition: 0.3s;
 }
 
-.taskContent:hover > .removeIconContainer:hover {
+.taskContent:hover>.removeIconContainer:hover {
     display: block;
     background-color: rgba(220, 218, 255, 0.2);
 }

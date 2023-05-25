@@ -7,6 +7,7 @@
     font-size: 14px;
     border-radius: 12px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .addFrame:hover {

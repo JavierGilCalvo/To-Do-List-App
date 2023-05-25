@@ -4,7 +4,8 @@ import styles from './TaskList.module.css'
 
 export default function TaskList ({ taskList }) {
   return (
-        <section className={styles.taskSection}>
+    <div className={styles.taskWrapper}>
+      <section className={styles.taskSection}>
           <div className={styles.taskTitle}>Lista de Tareas...</div>
           <ul className={styles.taskList}>
             {
@@ -17,5 +18,6 @@ export default function TaskList ({ taskList }) {
           </ul>
           <AddTask></AddTask>
         </section>
+    </div>
   )
 }
